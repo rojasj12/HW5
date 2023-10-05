@@ -35,7 +35,7 @@ Now try a linear regression, with wage as the dependent variable, a dummy for ma
 
 Here is some sample code, (not including college major)
 ```{r eval = FALSE}
-model_temp1 <- lm(INCWAGE ~ AGE + female + AfAm + Asian + Amindian + race_oth + Hispanic + educ_hs + educ_somecoll + educ_college + educ_advdeg, data = dat_use)
+model_temp1 <- lm(INCWAGE ~ AGE + female + AfAm + Asian + Amindian + race_oth + Hispanic + educ_hs + educ_somecoll + educ_college + educ_advdeg + veteran + BUILTYR2 + unmarried, data = dat_use)
 summary(model_temp1)
 
 # maybe get fancy
