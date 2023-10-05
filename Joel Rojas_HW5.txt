@@ -1,0 +1,57 @@
+Joel Rojas
+HW 5
+Lab 4:
+In lab 4 we seek to understand the determinants of wages using the ACS 2017 dataset. The lab focusses on factors such as age, gender, race and education level influenced an individual’s wages.
+
+Steps:
+1.	After Loading the data, we created a subset of the data for individuals aged 25-55 the so called ‘prime age”. These individuals also are in the labor force, work year-round and are full-time employees.
+2.	Ran a summary to identify any potential data issues.
+3.	Used a linear regression model where wage os the dependent variable and the factors described previously serve as the independent variables.
+4.	Used AER to test the significance and relationship of the variables in the model.
+5.	Visualized the data using a scatter plot.
+Some Results:
+•	Age:
+o	Statistically significant (p<0/01)
+o	For every 1 year increase an age a person wage is expected to increase by $1,326.70
+•	Female:
+o	Statistically significant (p<0/01)
+o	Females can expect to earn $24,939.46 less than males.
+•	African Americans:
+o	Statistically significant (p<0/01)
+o	African Americans can expect to earn $11,934.25 less than non- African Americans.
+•	Hispanic:
+o	Statistically significant (p<0/01)
+o	Hispanics can expect to earn $4,224.82 less than non-Hispanics.
+•	Edu College:
+o	Statistically significant (p<0/01)
+Individuals with college degrees can expect to earn $57,155.71 more than those without college degrees. 
+•	Edu Advanced Degree:
+o	Statistically significant (p<0/01)
+o	Individuals with advanced degrees can expect to earn $82,766.43 more than those without advanced degrees. 
+
+  
+ 
+
+My own Factors and Test:
+1. veteran Variable:
+Result: -5,901.965 with a standard error of 2,145.208 (indicated by *** suggests p < 0.01
+P-value: p < 0.01
+Confidence Interval (95%): [-10,146.136, -1,657.794]
+Null Hypothesis (H₀): Veterans have less wage than non-veterans.
+Explanation: Veterans can expect to make $5,901.97 less than non veterans. We do not reject the null hypothesis.
+
+2. BUILTYR2 Variable:
+Result: 1,267.554 with a standard error of 97.588.
+P-value: < 0.01
+Confidence Interval (95%): [1,076.647, 1,458.461]
+Null Hypothesis (H₀): The year the house was built has no effect on wages.
+Explanation: For each increase (most recent) that the house was built we can expect an individual to see an increase on $1,267.56 in wages. Given the standard error and p value, we reject the null hypothesis. 
+
+3. unmarried Variable:
+Result: -10,741.770 with a standard error of 843.755.
+P-value: < 0.01
+Confidence Interval (95%): [-12,400.887, -9,082.653]
+Null Hypothesis (H₀): Being unmarried has no effect on wages.
+Explanation: Unmarried individuals make $10,741.77 less than married individuals, given the standard error and p value, we reject the null hypothesis. 
+ 
+
