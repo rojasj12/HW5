@@ -37,21 +37,24 @@ My own Factors and Test:
 Result: -5,901.965 with a standard error of 2,145.208 (indicated by *** suggests p < 0.01
 P-value: p < 0.01
 Confidence Interval (95%): [-10,146.136, -1,657.794]
-Null Hypothesis (H₀): Veterans have less wage than non-veterans.
-Explanation: Veterans can expect to make $5,901.97 less than non veterans. We do not reject the null hypothesis.
+Null Hypothesis: Veterans have lower wages than non-veterans.
+Alternative Hypothesis: Veterans have higher wages than non-veterans.
+Explanation: Veterans can expect to make $5,901.97 less than nonveterans. Given the standard error and p value, We fail to reject the null hypothesis.
 
 2. BUILTYR2 Variable:
 Result: 1,267.554 with a standard error of 97.588.
 P-value: < 0.01
 Confidence Interval (95%): [1,076.647, 1,458.461]
-Null Hypothesis (H₀): The year the house was built has no effect on wages.
+Null Hypothesis: The year the house was built has no effect on wages.
+Alternative Hypothesis: The year the house was built does affect wages.
 Explanation: For each increase (most recent) that the house was built we can expect an individual to see an increase on $1,267.56 in wages. Given the standard error and p value, we reject the null hypothesis. 
 
 3. unmarried Variable:
 Result: -10,741.770 with a standard error of 843.755.
 P-value: < 0.01
 Confidence Interval (95%): [-12,400.887, -9,082.653]
-Null Hypothesis (H₀): Being unmarried has no effect on wages.
+Null Hypothesis: Being unmarried has no effect on wages.
+Alternative Hypothesis: Being marries does have an affect on wages.
 Explanation: Unmarried individuals make $10,741.77 less than married individuals, given the standard error and p value, we reject the null hypothesis. 
  
 
